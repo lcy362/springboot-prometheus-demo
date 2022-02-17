@@ -10,3 +10,7 @@ Currently, there are these metrics:
 + metric for httpclient component, refer HttpClientConfiguration, implemented with PoolingHttpClientConnectionManagerMetricsBinder.bind
 + metric for methods, implemented with @Timed, you need to enable the aspect (TimedConfiguration)
 + metric for thread pool of @Async, see main class of the application
+
+
+
+关于prometheus是什么，可以参考 https://lichuanyang.top/posts/28288/
